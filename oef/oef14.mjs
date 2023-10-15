@@ -1,3 +1,5 @@
+
+
 let i = 1;
 
 //loop 1 voor rij en loop 2 voor kolom
@@ -6,7 +8,7 @@ while(i <= 3){
     let j = 1;
     let uitv ='';
     while(j <= 4){
-        let result = i*j;
+        let result = (i*j)+' ';
         uitv += result;
         j++; 
     }
